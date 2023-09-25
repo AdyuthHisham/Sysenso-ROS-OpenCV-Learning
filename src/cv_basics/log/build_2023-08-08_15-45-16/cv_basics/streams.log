@@ -1,0 +1,24 @@
+[0.015s] Invoking command in '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sysenso/ros2_ws/src/cv_basics/build/cv_basics -- -j8 -l8
+[0.094s] [ 50%] Built target img_publisher
+[0.094s] [100%] Built target img_subscriber
+[0.110s] Invoked command in '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sysenso/ros2_ws/src/cv_basics/build/cv_basics -- -j8 -l8
+[0.162s] Invoking command in '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sysenso/ros2_ws/src/cv_basics/build/cv_basics
+[0.170s] -- Install configuration: ""
+[0.172s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/lib/img_publisher
+[0.174s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/lib/img_subscriber
+[0.176s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/ament_index/resource_index/package_run_dependencies/cv_basics
+[0.176s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/ament_index/resource_index/parent_prefix_path/cv_basics
+[0.178s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/environment/ament_prefix_path.sh
+[0.179s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/environment/ament_prefix_path.dsv
+[0.179s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/environment/path.sh
+[0.179s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/environment/path.dsv
+[0.179s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/local_setup.bash
+[0.179s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/local_setup.sh
+[0.179s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/local_setup.zsh
+[0.179s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/local_setup.dsv
+[0.179s] -- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/package.dsv
+[0.179s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/ament_index/resource_index/packages/cv_basics
+[0.180s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/cmake/cv_basicsConfig.cmake
+[0.180s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/cmake/cv_basicsConfig-version.cmake
+[0.180s] -- Up-to-date: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/package.xml
+[0.182s] Invoked command in '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sysenso/ros2_ws/src/cv_basics/build/cv_basics

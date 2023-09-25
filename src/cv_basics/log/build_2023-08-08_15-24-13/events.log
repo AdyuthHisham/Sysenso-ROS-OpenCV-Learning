@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.001712] (cv_basics) JobQueued: {'identifier': 'cv_basics', 'dependencies': OrderedDict()}
+[0.001744] (cv_basics) JobStarted: {'identifier': 'cv_basics'}
+[0.011695] (cv_basics) JobProgress: {'identifier': 'cv_basics', 'progress': 'cmake'}
+[0.011804] (cv_basics) Command: {'cmd': ['/usr/bin/cmake', '/home/sysenso/ros2_ws/src/cv_basics', '-DCMAKE_INSTALL_PREFIX=/home/sysenso/ros2_ws/src/cv_basics/install/cv_basics'], 'cwd': '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sysenso'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sysenso/ros2_ws/install/image_geometry/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sysenso'), ('OLDPWD', '/home/sysenso/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1544'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sysenso/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sysenso'), ('JOURNAL_STREAM', '8:32761'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sysenso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2-Ubuntu:@/tmp/.ICE-unix/1830,unix/ROS2-Ubuntu:/tmp/.ICE-unix/1830'), ('INVOCATION_ID', '793f9f6784104c16887622a94fb04b87'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f3af421_a59c_4d75_84d0_9c7dc9e33aa0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sysenso/ros2_ws/install/image_geometry:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sysenso/ros2_ws/install/image_geometry/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sysenso/ros2_ws/install/image_geometry:/opt/ros/foxy')]), 'shell': False}
+[0.106672] (-) TimerEvent: {}
+[0.212453] (-) TimerEvent: {}
+[0.234494] (cv_basics) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.289743] (cv_basics) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.296757] (cv_basics) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.313192] (-) TimerEvent: {}
+[0.368266] (cv_basics) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.371448] (cv_basics) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.415205] (-) TimerEvent: {}
+[0.436458] (cv_basics) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.442330] (cv_basics) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.443814] (cv_basics) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.447077] (cv_basics) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.513754] (cv_basics) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.514604] (cv_basics) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.515423] (-) TimerEvent: {}
+[0.592226] (cv_basics) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600041] (cv_basics) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.600417] (cv_basics) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.602660] (cv_basics) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.616724] (-) TimerEvent: {}
+[0.621533] (cv_basics) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.621677] (cv_basics) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.719276] (-) TimerEvent: {}
+[0.751202] (cv_basics) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.784552] (cv_basics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.789353] (cv_basics) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.823641] (-) TimerEvent: {}
+[0.864728] (cv_basics) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.886402] (cv_basics) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.925509] (-) TimerEvent: {}
+[0.943612] (cv_basics) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.987814] (cv_basics) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.989228] (cv_basics) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.991242] (cv_basics) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.028372] (-) TimerEvent: {}
+[1.052378] (cv_basics) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.052670] (cv_basics) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.119297] (cv_basics) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.119565] (cv_basics) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.130681] (-) TimerEvent: {}
+[1.177582] (cv_basics) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.177733] (cv_basics) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.231023] (-) TimerEvent: {}
+[1.246889] (cv_basics) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.248390] (cv_basics) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.338075] (-) TimerEvent: {}
+[1.360863] (cv_basics) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[1.446338] (-) TimerEvent: {}
+[1.478966] (cv_basics) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.502400] (cv_basics) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[1.546665] (-) TimerEvent: {}
+[1.549887] (cv_basics) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.605492] (cv_basics) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.608618] (cv_basics) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.608871] (cv_basics) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sysenso/ros2_ws/src/cv_basics/{OpenCV_INCLUDE_DIRS}\n'}
+[1.608916] (cv_basics) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.611127] (cv_basics) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.611212] (cv_basics) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.612688] (cv_basics) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.615327] (cv_basics) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.615408] (cv_basics) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.616014] (cv_basics) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.618454] (cv_basics) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.642219] (cv_basics) StdoutLine: {'line': b'-- Generating done\n'}
+[1.643754] (cv_basics) StdoutLine: {'line': b'-- Build files have been written to: /home/sysenso/ros2_ws/src/cv_basics/build/cv_basics\n'}
+[1.647445] (-) TimerEvent: {}
+[1.656095] (cv_basics) CommandEnded: {'returncode': 0}
+[1.656816] (cv_basics) JobProgress: {'identifier': 'cv_basics', 'progress': 'build'}
+[1.656890] (cv_basics) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics', '--', '-j8', '-l8'], 'cwd': '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sysenso'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sysenso/ros2_ws/install/image_geometry/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sysenso'), ('OLDPWD', '/home/sysenso/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1544'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sysenso/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sysenso'), ('JOURNAL_STREAM', '8:32761'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sysenso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2-Ubuntu:@/tmp/.ICE-unix/1830,unix/ROS2-Ubuntu:/tmp/.ICE-unix/1830'), ('INVOCATION_ID', '793f9f6784104c16887622a94fb04b87'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f3af421_a59c_4d75_84d0_9c7dc9e33aa0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sysenso/ros2_ws/install/image_geometry:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sysenso/ros2_ws/install/image_geometry/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sysenso/ros2_ws/install/image_geometry:/opt/ros/foxy')]), 'shell': False}
+[1.695717] (cv_basics) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target img_subscriber\x1b[0m\n'}
+[1.695919] (cv_basics) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target img_publisher\x1b[0m\n'}
+[1.743770] (cv_basics) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/img_publisher.dir/src/webcam_pub.cpp.o\x1b[0m\n'}
+[1.744456] (cv_basics) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/img_subscriber.dir/src/webcam_sub.cpp.o\x1b[0m\n'}
+[1.748051] (-) TimerEvent: {}
+[1.850054] (-) TimerEvent: {}
+[1.951654] (-) TimerEvent: {}
+[2.054301] (-) TimerEvent: {}
+[2.156144] (-) TimerEvent: {}
+[2.260648] (-) TimerEvent: {}
+[2.361616] (-) TimerEvent: {}
+[2.462685] (-) TimerEvent: {}
+[2.565704] (-) TimerEvent: {}
+[2.672201] (-) TimerEvent: {}
+[2.773266] (-) TimerEvent: {}
+[2.880017] (-) TimerEvent: {}
+[2.983390] (-) TimerEvent: {}
+[3.085220] (-) TimerEvent: {}
+[3.189790] (-) TimerEvent: {}
+[3.290442] (-) TimerEvent: {}
+[3.392656] (-) TimerEvent: {}
+[3.493547] (-) TimerEvent: {}
+[3.597360] (-) TimerEvent: {}
+[3.700283] (-) TimerEvent: {}
+[3.806291] (-) TimerEvent: {}
+[3.907375] (-) TimerEvent: {}
+[4.012369] (-) TimerEvent: {}
+[4.113097] (-) TimerEvent: {}
+[4.214551] (-) TimerEvent: {}
+[4.323021] (-) TimerEvent: {}
+[4.444160] (-) TimerEvent: {}
+[4.545466] (-) TimerEvent: {}
+[4.652518] (-) TimerEvent: {}
+[4.754144] (-) TimerEvent: {}
+[4.858979] (-) TimerEvent: {}
+[4.961085] (-) TimerEvent: {}
+[5.063360] (-) TimerEvent: {}
+[5.165484] (-) TimerEvent: {}
+[5.268114] (-) TimerEvent: {}
+[5.371837] (-) TimerEvent: {}
+[5.392956] (cv_basics) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable img_publisher\x1b[0m\n'}
+[5.476857] (-) TimerEvent: {}
+[5.582892] (-) TimerEvent: {}
+[5.687847] (-) TimerEvent: {}
+[5.789683] (-) TimerEvent: {}
+[5.823564] (cv_basics) StdoutLine: {'line': b'[ 75%] Built target img_publisher\n'}
+[5.903263] (-) TimerEvent: {}
+[6.008433] (-) TimerEvent: {}
+[6.112152] (-) TimerEvent: {}
+[6.226972] (-) TimerEvent: {}
+[6.327778] (-) TimerEvent: {}
+[6.435123] (-) TimerEvent: {}
+[6.546231] (-) TimerEvent: {}
+[6.653484] (-) TimerEvent: {}
+[6.757147] (-) TimerEvent: {}
+[6.859406] (-) TimerEvent: {}
+[6.920922] (cv_basics) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable img_subscriber\x1b[0m\n'}
+[6.960657] (-) TimerEvent: {}
+[7.064867] (-) TimerEvent: {}
+[7.165890] (-) TimerEvent: {}
+[7.274081] (-) TimerEvent: {}
+[7.367851] (cv_basics) StdoutLine: {'line': b'[100%] Built target img_subscriber\n'}
+[7.374305] (-) TimerEvent: {}
+[7.381056] (cv_basics) CommandEnded: {'returncode': 0}
+[7.420015] (cv_basics) JobProgress: {'identifier': 'cv_basics', 'progress': 'install'}
+[7.430478] (cv_basics) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics'], 'cwd': '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sysenso'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sysenso/ros2_ws/install/image_geometry/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sysenso'), ('OLDPWD', '/home/sysenso/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1544'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sysenso/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sysenso'), ('JOURNAL_STREAM', '8:32761'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sysenso'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2-Ubuntu:@/tmp/.ICE-unix/1830,unix/ROS2-Ubuntu:/tmp/.ICE-unix/1830'), ('INVOCATION_ID', '793f9f6784104c16887622a94fb04b87'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5f3af421_a59c_4d75_84d0_9c7dc9e33aa0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sysenso/ros2_ws/install/image_geometry:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sysenso/ros2_ws/install/image_geometry/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sysenso/ros2_ws/install/image_geometry:/opt/ros/foxy')]), 'shell': False}
+[7.437784] (cv_basics) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.437938] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/lib/img_publisher\n'}
+[7.438472] (cv_basics) StdoutLine: {'line': b'-- Set runtime path of "/home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/lib/img_publisher" to ""\n'}
+[7.438568] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/lib/img_subscriber\n'}
+[7.440097] (cv_basics) StdoutLine: {'line': b'-- Set runtime path of "/home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/lib/img_subscriber" to ""\n'}
+[7.440195] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/ament_index/resource_index/package_run_dependencies/cv_basics\n'}
+[7.440241] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/ament_index/resource_index/parent_prefix_path/cv_basics\n'}
+[7.440389] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/environment/ament_prefix_path.sh\n'}
+[7.440536] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/environment/ament_prefix_path.dsv\n'}
+[7.440688] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/environment/path.sh\n'}
+[7.440809] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/environment/path.dsv\n'}
+[7.440843] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/local_setup.bash\n'}
+[7.441068] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/local_setup.sh\n'}
+[7.441201] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/local_setup.zsh\n'}
+[7.441354] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/local_setup.dsv\n'}
+[7.441535] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/package.dsv\n'}
+[7.441718] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/ament_index/resource_index/packages/cv_basics\n'}
+[7.441791] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/cmake/cv_basicsConfig.cmake\n'}
+[7.441825] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/cmake/cv_basicsConfig-version.cmake\n'}
+[7.441858] (cv_basics) StdoutLine: {'line': b'-- Installing: /home/sysenso/ros2_ws/src/cv_basics/install/cv_basics/share/cv_basics/package.xml\n'}
+[7.446186] (cv_basics) CommandEnded: {'returncode': 0}
+[7.474885] (-) TimerEvent: {}
+[7.503531] (cv_basics) JobEnded: {'identifier': 'cv_basics', 'rc': 0}
+[7.503899] (-) EventReactorShutdown: {}

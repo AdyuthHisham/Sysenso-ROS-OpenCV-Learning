@@ -1,0 +1,11 @@
+/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics/CMakeFiles/install/strip.dir
+/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics/CMakeFiles/install/local.dir
+/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics/CMakeFiles/edit_cache.dir
+/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics/CMakeFiles/test.dir
+/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics/CMakeFiles/install.dir
+/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics/CMakeFiles/list_install_components.dir
+/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics/CMakeFiles/rebuild_cache.dir
+/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics/CMakeFiles/img_publisher.dir
+/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics/CMakeFiles/img_subscriber.dir
+/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics/CMakeFiles/cv_basics_uninstall.dir
+/home/sysenso/ros2_ws/src/cv_basics/build/cv_basics/CMakeFiles/uninstall.dir
